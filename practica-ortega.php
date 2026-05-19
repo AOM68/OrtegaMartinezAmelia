@@ -24,8 +24,9 @@
      * @param int $b Segundo número.
      * @return int El resultado de la multiplicación.
      */
-    function multiplicar(int $a, int $b): int {
-        return $a * $b;
+    function multiplicar(int $b, int $a): int {
+        //Modificación: cambio el orden de los factores
+        return $b * $a;
     }
 
     saludar("Juanjo"); 
